@@ -1,5 +1,6 @@
 type Details = {
-  [x: string]: {};
+  createAt: Date;
+  updateAt: Date;
 };
 
 type Page = {

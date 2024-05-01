@@ -1,8 +1,13 @@
+type Address = {
+  city: string;
+  country: string;
+};
+
 interface User {
   name: string;
   age: number;
   email: string;
-  address?: {};
+  address?: Address;
 }
 
 const mango: User = {
